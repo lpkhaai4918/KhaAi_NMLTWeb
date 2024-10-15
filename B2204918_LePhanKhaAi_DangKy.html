@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Ký Thành Viên</title>
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <!---header--->
+    <header>
+        <a href="B2204918_LePhanKhaAi_DangKy.html"><img src="images/logo.png"></a>
+        <!---nav--->
+        <nav>
+            <a href="B2204918_LePhanKhaAi_Trangchu.html"><u>Trang chủ</u></a>
+            <a href="B2204918_LePhanKhaAi_GioiThieu.html"><u>Giới thiệu</u></a>
+            <a href="B2204918_LePhanKhaAi_SanPham.html"><u>Sản phẩm</u></a>
+            <a href="B2204918_LePhanKhaAi_TinTuc.html"><u>Tin tức</u></a>
+            <a href="B2204918_LePhanKhaAi_DangNhap.html"><u>Đăng nhập</u></a>
+            <a href="B2204918_LePhanKhaAi_DangKy.html"><u>Đăng ký</u></a>
+            <a href="B2204918_LePhanKhaAi_LienHe.html"><u>Liên hệ</u></a>
+        </nav>
+    </header>
+    <!---main--->
+    <main>
+        <!---article--->
+        <article>
+            <form action="#">
+                <fieldset>
+                <legend><b>Đăng Ký</b></legend>
+                <form action="/action_dangky.php" method="post" enctype="multipart/form-data">
+                 <table>
+                    <tr>
+                <td><label for="email"><b>Email:</b></label></td>
+                <td><input type="text" id="email" name="email" placeholder="Vui lòng nhập email"></td>
+                    </tr>
+                 <tr>
+            <td><label for="psw"><b>Mật khẩu:</b></label></td>
+            <td><input type="password" id="psw" name="psw" placeholder="Vui lòng nhập mật khẩu"></td>
+            </tr>
+            <tr>
+            <td><label for="psw2"><b>Nhập lại mật khẩu:</b></label></td>
+            <td><input type="password" id="psw2" name="psw2" placeholder="Vui lòng nhập mật khẩu"></td>
+             </tr>
+             <tr>
+          <td><b>Cấp độ thành viên:</b></td>
+             <td>
+            <input type="radio" name="memberType" value="Bạc"> <b>Bạc</b>
+            <input type="radio" name="memberType" value="Vàng"> <b>Vàng</b>
+            <input type="radio" name="memberType" value="Bạch Kim"><b>Bạch Kim</b><br>
+                    
+              </td>
+            </tr>
+        <tr>
+          <td><label for="avatar"><b>Ảnh đại diện:</b></label></td>
+          <td><input type="file" id="avatar" name="avatar"></td>
+        </tr>
+            <tr>
+        
+            <td colspan="2">
+            <b>Thông qua việc tạo tài khoản, bạn đồng ý với <a href="B2204918_LePhanKhaAi_TinTuc.html"><u>Điều khoản & Quyền riêng tư của chúng tôi</u></a></b>
+                <br>
+            <input type="reset" value="Hủy">
+             <input type="submit" value="Đăng Ký">
+                 </td>
+                 </tr>
+             </table>
+            </form>
+        </fieldset>
+                
+                
+    </article>
+    </main>
+
+    <!---footer--->
+    <footer>
+        <p>
+            <b>&copy; 2021 Bản quyền thuộc về FreeezeVN.
+        <a href="https://www.facebook.com/"><u>Facebook</u></a>
+        <a href ="https://x.com/?lang=vi"><u>Twitter></u></a>
+        <a href="https://www.pinterest.com/"><u>Pinterest</u></a>
+        <a href="B2204918_LePhanKhaAi_Trangchu.html"><u>Về đầu trang</u></a>
+    </b>
+        </p>
+    </footer>
+</body>
+
+</html>
